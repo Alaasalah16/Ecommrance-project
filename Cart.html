@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce-ShoppingCart</title>
+<!---- swiper css cdn link ---->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+
+<!---- boxicon cdn link ---->
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!---- customer css file ---->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <!-- HEADER  -->
+    <header>
+        <!-- NAV  -->
+        <div class="nav container">
+            <a href="#" class="logo"><span>E</span>Commerce</a>
+            <!-- CART ICON  -->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+
+            <!-- CART  -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!-- CONTENT  -->
+                <div class="cart-content">
+
+
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="assets/img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nike Shoes</h2>
+                <span class="product-price">$79.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="images/products/all products/product-15.jpg.webp" alt="" class="product-img">
+                <h2 class="product-title">watch</h2>
+                <span class="product-price">$59.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="assets/img/product3.webp" alt="" class="product-img">
+                <h2 class="product-title">shirt</h2>
+                <span class="product-price">$29.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="assets/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">METAL SUNGLASSES</h2>
+                <span class="product-price">$105</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="assets/img/product5.webp" alt="" class="product-img">
+                <h2 class="product-title">flower blouse</h2>
+                <span class="product-price">$95</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="images/products/all products/product-12.jpg.webp" alt="" class="product-img">
+                <h2 class="product-title"> belt</h2>
+                <span class="product-price">$140</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="assets/img/product7.webp" alt="" class="product-img">
+                <h2 class="product-title">nike shoes</h2>
+                <span class="product-price">$1700</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="assets/img/product8.webp" alt="" class="product-img">
+                <h2 class="product-title"> Esprint Ruffle Shirt</h2>
+                <span class="product-price">$110.5</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    
+    <!---- footer section ---->
+    <section class="footer">
+        <div class="main-footer">
+            <div class="col-3">
+                <h4>categories</h4>
+                <a href="#">women</a>
+                <a href="#">men</a>
+                <a href="#">shoes</a>
+                <a href="#">watches</a>
+            </div>
+            <div class="col-3">
+                <h4>help</h4>
+                <a href="#">track order</a>
+                <a href="#">returns</a>
+                <a href="#">shipping</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="col-3">
+                <h4>get in touch</h4>
+                <p><span>any quection?</span> let us know in store at 8th</p>
+                <p>floor, 379 AnwarEhhermen St, zagzig</p>
+                <p>call us on +201064161638</p>
+                <div class="social">
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-pinterest-alt' ></i>
+                </div>
+            </div>
+            <div class="col-3">
+                <h4>news letter</h4>
+                <input type="email" placeholder="email@gmail.com">
+                <button>subscribe</button>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="payment">
+                <img src="./images/logo/icon-pay-01.png.webp" alt="">
+                <img src="./images/logo/icon-pay-02.png.webp" alt="">
+                <img src="./images/logo/icon-pay-03.png.webp" alt="">
+                <img src="./images/logo/icon-pay-04.png.webp" alt="">
+                <img src="./images/logo/icon-pay-05.png.webp" alt="">
+            </div> -->
+           
+        </div>
+    </section>
+
+    <!---- swiper js cdn link ---->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- link js  -->
+    <script src="assets/js/main.js"></script>
+      <!----customer js file ---->
+      <script src="./script.js"></script>
+    
+</body>
+
+</html>
